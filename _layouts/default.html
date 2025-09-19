@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header><h1>{{ site.title }}</h1></header>
+  <hr>
+  <div class="main-content">
+    <main>{{ content }}</main>
+  </div>
+  <hr>
+  <footer><p> Copyright &copy; {{ site.time | date: '%Y' }} -  Tommaso Aicardi</p></footer>
+</body>
+</html>
