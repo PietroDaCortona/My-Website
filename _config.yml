@@ -1,7 +1,4 @@
-title: Tommaso Aicardi- PhD Student at Università Bocconi
-email: your-email@example.com
-description: >
-  A simple Jekyll starter template.
-baseurl: ""
-url: ""
+
+title: My Website
+baseurl: "/My-Website"
 theme: minima
